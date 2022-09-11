@@ -1,0 +1,13 @@
+.join__form {
+  background-color: whitesmoke;
+  border-radius: 30px;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+.join__form p {
+  color: red;
+}
+.join__form button {
+  width: 100%;
+}

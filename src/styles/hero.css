@@ -1,0 +1,17 @@
+.hero {
+  padding: 3rem;
+}
+.hero__bmi {
+  box-sizing: content-box;
+  margin: auto;
+}
+.hero__section {
+  background-image: url("https://img.freepik.com/darmowe-zdjecie/mlody-sprawnosc-fizyczna-mezczyzna-w-studiu_7502-5007.jpg?w=1800&t=st=1661548352~exp=1661548952~hmac=3c2e4c437c5f9186c4d64b94e5b6c23e5709c7c8ea7a1e7d67b59a754ee61d1b");
+  background-size: cover;
+  padding: 3rem;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+p {
+  color: aliceblue;
+}

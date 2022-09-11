@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Carousel from "./components/Carousel";
+import Columns from "./components/Columns";
+import Workout from "./components/Workout";
+import Nutricion from "./components/Nutricion";
+import Suplementation from "./components/Suplementation";
+import Footer from "./components/Footer";
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/home" element={<Carousel />}></Route>
+            <Route path="/hero" element={<Hero />}></Route>
+            <Route path="/columns" element={<Columns />}></Route>
+            <Route path="/workout" element={<Workout />}></Route>
+            <Route path="/nutricion" element={<Nutricion />}></Route>
+            <Route path="/suplementation" element={<Suplementation />}></Route>
+            <Route path="/joinus" element={<JoinUs />}></Route>
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </>
   );
 }
 

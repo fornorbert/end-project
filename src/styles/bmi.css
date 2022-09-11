@@ -1,0 +1,42 @@
+.card__bmi {
+  width: 400px;
+}
+.hero__bmi {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 3rem;
+}
+.bmi__input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+div label {
+  color: black;
+}
+.bmi__head {
+  margin-bottom: 2rem;
+}
+
+.bmi__height input {
+  border: none;
+  border-bottom: 3px solid gainsboro;
+}
+
+.bmi__mass input {
+  border: none;
+  border-bottom: 3px solid gainsboro;
+}
+
+.bmi__resoult {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.bmi__resoult input {
+  border: none;
+  font-weight: bold;
+}

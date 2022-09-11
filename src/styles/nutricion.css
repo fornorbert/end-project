@@ -1,0 +1,13 @@
+.nutricion__section {
+  margin-top: 0;
+  padding: 3rem;
+}
+.nutricion__section h2 {
+  text-align: center;
+  color: snow;
+  text-decoration: underline;
+}
+.nutricion__image {
+  background-image: url("https://now.northropgrumman.com/wp-content/uploads/sites/2/2022/05/09b-gettyimages-1301565375_foodmyths_paleohealthyfood.jpg");
+  min-height: 500px;
+}

@@ -1,0 +1,14 @@
+.suplement__section {
+  color: snow;
+  text-align: center;
+  padding: 3rem;
+}
+.suplement__section h2 {
+  text-decoration: underline;
+}
+.suplement__image {
+  background-image: url("https://domf5oio6qrcr.cloudfront.net/medialibrary/12476/4a8249f2-8997-4a4e-97f1-b9ff4cca08c3.jpg");
+  background-size: cover;
+  min-height: 500px;
+  min-width: 500px;
+}

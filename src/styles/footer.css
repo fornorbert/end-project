@@ -1,0 +1,10 @@
+.footer__section {
+  display: flex;
+  background-color: black;
+  color: ghostwhite;
+  padding: 3rem;
+}
+.block {
+  padding: 1rem;
+  list-style: none;
+}
