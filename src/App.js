@@ -10,6 +10,7 @@ import Nutricion from "./components/Nutricion";
 import Suplementation from "./components/Suplementation";
 import Footer from "./components/Footer";
 import JoinUs from "./components/JoinUs";
+import Error from "./components/Error";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/nutricion" element={<Nutricion />}></Route>
             <Route path="/suplementation" element={<Suplementation />}></Route>
             <Route path="/joinus" element={<JoinUs />}></Route>
+            <Route path="*" element={<Error />}></Route>
           </Routes>
           <Footer />
         </BrowserRouter>

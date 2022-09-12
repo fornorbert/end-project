@@ -22,8 +22,8 @@ function CarouselFadeExample() {
         />
 
         <Carousel.Caption>
-          <h3>Stay Powerfull</h3>
-          <p>Keep your Body and Soul indestructible!</p>
+          <h3>Stay Strong</h3>
+          <p>Don't let you get weak</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,8 +34,8 @@ function CarouselFadeExample() {
         />
 
         <Carousel.Caption>
-          <h3>Stay Powerfull</h3>
-          <p>Keep your Body and Soul indestructible!</p>
+          <h3>Be Happy</h3>
+          <p>Don't let you waste your Time</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -46,7 +46,7 @@ export default function Signup({ submitForm }) {
                   <div className="name">
                     <Form.Label className="label">Username</Form.Label>
                     <Form.Control
-                      input
+                      placeholder="Enter your username"
                       className="input"
                       type="text"
                       name="username"
@@ -65,6 +65,7 @@ export default function Signup({ submitForm }) {
                   <div className="email">
                     <Form.Label className="label">Email</Form.Label>
                     <Form.Control
+                      placeholder="Enter your email adress"
                       className="input"
                       type="email"
                       name="email"
@@ -81,7 +82,7 @@ export default function Signup({ submitForm }) {
                   <div className="password">
                     <Form.Label className="label">Password</Form.Label>
                     <Form.Control
-                      input
+                      placeholder="Create your unique password"
                       className="input"
                       type="password"
                       name="password"
