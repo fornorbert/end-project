@@ -1,8 +1,10 @@
 import React from "react";
 import { Card, Container, Button, Row, Col } from "react-bootstrap";
 import "../styles/columns.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Columns() {
+  const navigate = useNavigate();
   return (
     <Container>
       <Row>
@@ -18,7 +20,14 @@ export default function Columns() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">more...</Button>
+              <Button
+                onClick={() => {
+                  navigate("/workout");
+                }}
+                variant="primary"
+              >
+                more...
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -34,7 +43,14 @@ export default function Columns() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">more...</Button>
+              <Button
+                onClick={() => {
+                  navigate("/nutricion");
+                }}
+                variant="primary"
+              >
+                more...
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -50,7 +66,14 @@ export default function Columns() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
-              <Button variant="primary">more...</Button>
+              <Button
+                onClick={() => {
+                  navigate("/suplementation");
+                }}
+                variant="primary"
+              >
+                more...
+              </Button>
             </Card.Body>
           </Card>
         </Col>

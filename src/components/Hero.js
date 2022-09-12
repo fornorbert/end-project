@@ -11,15 +11,11 @@ export default function Hero() {
         </div>
       </div>
       <p>
-        BMI (Body Mass Index) to wskaźnik zależności między masą ciała a
-        wzrostem. Wartość ta jest kluczowa w ocenie ryzyka wystąpienia chorób
-        związanych z nadwagą takich jak miażdżyca lub choroba niedokrwienna
-        serca. Mogłoby się wydawać, że im niższe BMI, tym ryzyko wystąpienia
-        chorób jest mniejsze. Jednak zbyt niskie, tak samo jak zbyt wysokie
-        wyniki niosą za sobą zwiększone zagrożenie śmiercią z przyczyn
-        sercowo-naczyniowych. Można więc przyjąć, że najlepszą prozdrowotną
-        wartością BMI będzie ta znajdująca się w granicach normy [1,2]. W
-        dalszej części artykułu poznasz normy dla BMI.
+        Body Mass Index (BMI) is a person’s weight in kilograms (or pounds)
+        divided by the square of height in meters (or feet). A high BMI can
+        indicate high body fatness. BMI screens for weight categories that may
+        lead to health problems, but it does not diagnose the body fatness or
+        health of an individual.
       </p>
     </div>
   );

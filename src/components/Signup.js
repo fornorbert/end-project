@@ -39,7 +39,10 @@ export default function Signup({ submitForm }) {
                 <h2 className="title">Join Us!</h2>
               </div>
               <Form className="form__wrapper">
-                <Form.Group className="mb-3" controlId="formBasicText">
+                <Form.Group
+                  className="join__form mb-3"
+                  controlId="formBasicText"
+                >
                   <div className="name">
                     <Form.Label className="label">Username</Form.Label>
                     <Form.Control
@@ -55,7 +58,10 @@ export default function Signup({ submitForm }) {
                     )}
                   </div>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group
+                  className="join__form mb-3"
+                  controlId="formBasicEmail"
+                >
                   <div className="email">
                     <Form.Label className="label">Email</Form.Label>
                     <Form.Control
@@ -68,7 +74,10 @@ export default function Signup({ submitForm }) {
                     {errors.email && <p className="error">{errors.email}</p>}
                   </div>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Group
+                  className="join__form mb-3"
+                  controlId="formBasicPassword"
+                >
                   <div className="password">
                     <Form.Label className="label">Password</Form.Label>
                     <Form.Control

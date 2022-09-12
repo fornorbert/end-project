@@ -24,6 +24,9 @@ function Header() {
                 <Link to="/hero">
                   <Nav className="header__link">Bmi</Nav>
                 </Link>
+                <Link to="/columns">
+                  <Nav className="header__link">About</Nav>
+                </Link>
                 <Link to="/workout">
                   <Nav className="header__link">Workout</Nav>
                 </Link>
@@ -33,9 +36,7 @@ function Header() {
                 <Link to="/suplementation">
                   <Nav className="header__link">Suplementation</Nav>
                 </Link>
-                <Link to="/columns">
-                  <Nav className="header__link">More</Nav>
-                </Link>
+
                 <Link to="/joinus">
                   <Button variant="danger">Join Us</Button>
                 </Link>
